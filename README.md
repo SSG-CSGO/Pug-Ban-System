@@ -1,7 +1,7 @@
 # Pug-Ban-System
 A csgo plugin that can auto-ban players if they leave wen match is living
 
-Cvars:
+# Cvars:
 
 	sm_pug_servernumber 1/2/3...  -Server number,each server shouldn't be same.
 	
@@ -9,11 +9,12 @@ Cvars:
 	
 	sm_pug_canleavemsg "" -Wen players can leave,print to chat。
 	
-Database:
+# Database:
 
 	"pug-ban"
 	
 {
+
     "driver"                        "mysql"
     
     "host"                                "DB_HOST"
